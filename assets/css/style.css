@@ -122,7 +122,7 @@ body {
     height: 50px;
     border: none;
     background-color: black;
-    
+
     color: #fff;
     font-size: 1.5rem;
     width: 100%;
@@ -134,7 +134,7 @@ body {
     color: rgb(238, 241, 36);
 }
 
-.container-1{
+.container-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +144,7 @@ body {
 .where-to-watching {
     display: flex;
     flex-direction: row-reverse;
-    
+
 }
 
 .where-to-watching img {
@@ -159,7 +159,7 @@ body {
     text-align: justify;
 }
 
-.text-watching h2{
+.text-watching h2 {
     padding-bottom: 30px;
 }
 
@@ -184,4 +184,57 @@ body {
     gap: 30px;
     justify-content: space-between;
     align-items: center;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 5rem;
+    width: 100%;
+}
+
+.grid-seasons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.season {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.season img{
+    width: 200px;
+    height: 286px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.season-content {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1rem;
+}
+
+.season-content p {
+    max-width: 400px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+background-color: #817a17;
+padding: 30px;
 }
