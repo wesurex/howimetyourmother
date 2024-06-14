@@ -211,7 +211,7 @@ body {
     align-items: flex-start;
 }
 
-.season img{
+.season img {
     width: 200px;
     height: 286px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -235,6 +235,6 @@ body {
     justify-content: center;
     max-width: 100%;
     text-align: center;
-background-color: #817a17;
-padding: 30px;
+    background-color: #817a17;
+    padding: 30px;
 }
